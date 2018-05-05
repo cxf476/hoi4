@@ -743,6 +743,15 @@ ideas = {
 	}
 
 	political_advisor = {
+                CHI_hu_yaobang = {
+			
+			picture = generic_political_advisor_asia_1			
+			traits = { prince_of_gentleman }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
 
 		CHI_chiang_ching_kuo = {
 
