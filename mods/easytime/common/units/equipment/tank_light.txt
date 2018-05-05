@@ -85,6 +85,10 @@ equipments = {
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
+
+                can_convert_from = { 
+			gw_tank_equipment
+		}
 	}
 
 	light_tank_equipment_2 = {
@@ -95,6 +99,11 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
+
+		can_convert_from = { 
+                        gw_tank_equipment
+			light_tank_equipment_1
+		}
 
 		#Misc Abilities
 		maximum_speed = 12
@@ -125,6 +134,12 @@ equipments = {
 		priority = 10
 		visual_level = 2
 		is_convertable = yes
+
+		can_convert_from = { 
+			gw_tank_equipment
+			light_tank_equipment_1
+			light_tank_equipment_2
+		}
 
 		#Misc Abilities
 		maximum_speed = 14
@@ -218,6 +233,7 @@ equipments = {
 		can_convert_from = { 
 			light_tank_equipment_1 
 			light_tank_equipment_2
+                        light_tank_artillery_equipment_1
 		}
 		
 		#Misc Abilities
@@ -251,6 +267,8 @@ equipments = {
 		can_convert_from = { 
 			light_tank_equipment_2
 			light_tank_equipment_3
+                        light_tank_artillery_equipment_1
+                        light_tank_artillery_equipment_2
 		}
 		
 		#Misc Abilities
@@ -344,6 +362,7 @@ equipments = {
 		can_convert_from = { 
 			light_tank_equipment_1 
 			light_tank_equipment_2
+			light_tank_destroyer_equipment_1
 		}
 		
 		#Misc Abilities
@@ -379,6 +398,8 @@ equipments = {
 		can_convert_from = { 
 			light_tank_equipment_2
 			light_tank_equipment_3
+			light_tank_destroyer_equipment_1
+			light_tank_destroyer_equipment_2
 		}
 
 		#Misc Abilities

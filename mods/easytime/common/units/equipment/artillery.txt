@@ -4,6 +4,7 @@ equipments = {
 		year = 1934
 
 		is_archetype = yes
+                is_convertable = yes
 		picture = archetype_artillery_equipment		
 		type = {
 			artillery
@@ -55,6 +56,10 @@ equipments = {
 		priority = 50
 		visual_level = 1
 
+		can_convert_from = { 
+			artillery_equipment_1
+		}
+
 		defense = 15
 		breakthrough = 7
 		soft_attack = 30
@@ -73,6 +78,11 @@ equipments = {
 		parent = artillery_equipment_2
 		priority = 50
 		visual_level = 2
+
+		can_convert_from = { 
+			artillery_equipment_1
+			artillery_equipment_2
+		}
 		
 		defense = 18
 		breakthrough = 8
@@ -90,6 +100,7 @@ equipments = {
 		year = 1940
 
 		is_archetype = yes
+                is_convertable = yes
 		picture = archetype_rocket_artillery_equipment		
 		type = { 
 			artillery
@@ -137,6 +148,10 @@ equipments = {
 		parent = rocket_artillery_equipment_1
 		priority = 60
 		visual_level = 1
+
+		can_convert_from = { 
+			rocket_artillery_equipment_1
+		}
 		
 		defense = 15
 		breakthrough = 12
@@ -154,6 +169,7 @@ equipments = {
 		year = 1934
 
 		is_archetype = yes
+                is_convertable = yes
 		picture = archetype_motorized_rocket_equipment			
 		type = { 
 			artillery
@@ -191,6 +207,11 @@ equipments = {
 		year = 1939
 
 		archetype = motorized_rocket_equipment
+
+		can_convert_from = { 
+			motorized_equipment_1
+		}
+
 		priority = 70
 		visual_level = 0
 	}

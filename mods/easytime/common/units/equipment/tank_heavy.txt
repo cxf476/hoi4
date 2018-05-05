@@ -67,6 +67,10 @@ equipments = {
 		priority = 90
 		visual_level = 1
 		is_convertable = yes
+
+		can_convert_from = { 
+			heavy_tank_equipment_1
+		}
 		
 		#Misc Abilities
 		maximum_speed = 6
@@ -98,6 +102,11 @@ equipments = {
 		priority = 90
 		visual_level = 2
 		is_convertable = yes
+
+		can_convert_from = { 
+			heavy_tank_equipment_1
+			heavy_tank_equipment_2
+		}
 
 		#Misc Abilities
 		maximum_speed = 6
@@ -189,6 +198,7 @@ equipments = {
 		can_convert_from = { 
 			heavy_tank_equipment_1 
 			heavy_tank_equipment_2
+			heavy_tank_artillery_equipment_1
 		}
 		priority = 100
 		visual_level = 1
@@ -222,6 +232,8 @@ equipments = {
 		can_convert_from = { 
 			heavy_tank_equipment_2
 			heavy_tank_equipment_3
+			heavy_tank_artillery_equipment_1
+			heavy_tank_artillery_equipment_2
 		}
 		priority = 100
 		visual_level = 2
@@ -314,6 +326,7 @@ equipments = {
 		can_convert_from = { 
 			heavy_tank_equipment_1
 			heavy_tank_equipment_2
+			heavy_tank_destroyer_equipment_1
 		}
 		priority = 120
 		visual_level = 1
@@ -349,6 +362,8 @@ equipments = {
 		can_convert_from = { 
 			heavy_tank_equipment_2
 			heavy_tank_equipment_3
+			heavy_tank_destroyer_equipment_1
+			heavy_tank_destroyer_equipment_2
 		}
 		priority = 120
 		visual_level = 2
